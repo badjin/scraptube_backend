@@ -26,8 +26,6 @@ $app = new Illuminate\Foundation\Application(
 |
 */
 
-header('Access-Control-Allow-Origin: *');
-
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
     App\Http\Kernel::class
